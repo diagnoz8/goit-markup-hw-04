@@ -358,15 +358,21 @@ margin-left: auto;
         height: 88px;
         border: 1px solid var(--subtle-text);
         border-radius: 4px;
+color: var(--subtle-text);
+}
+.customer-icon{
+        fill: currentColor;
 }
 .customers-list-link:hover,
 .customers-list-link:focus{
         border-color: var(--pressed-state);
         color: var(--pressed-state);
 }
-.customer-icon{
-        fill: currentColor;
+.customers-list-link:hover .customer-icon,
+.customers-list-link:focus .customer-icon {
+        fill: var(--pressed-state);
 }
+
 /* /MAIN INDEX */
 /* MAIN PORTFOLIO */
 .portfolio-section{
