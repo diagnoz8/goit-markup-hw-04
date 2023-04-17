@@ -328,6 +328,7 @@ margin-left: auto;
 .soc-icons-list{
         display: flex;
         gap: 24px;
+        justify-content: center;
 }
 .soc-icons-item{
         display: flex;
@@ -344,7 +345,9 @@ margin-left: auto;
 .soc-icons-item:focus{
                 background-color: var(--pressed-state);
 }
-
+.soc-icons-li-item{
+        
+}
 .social-media .soc-icons-item:hover{
         background-color: var(--success);
 }
