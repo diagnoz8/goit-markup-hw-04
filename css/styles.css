@@ -309,12 +309,10 @@ margin-left: auto;
         gap: 24px;
 }
 .card-index{
-        padding-top: 32px;
-        padding-bottom: 32px;
         border-radius: 0px 0px 4px 4px;
-        padding-left: 16px;
-        padding-right: 16px;
+
         text-align: center;
+        padding: 32px 0;
        
 }
 .li-card-index{
