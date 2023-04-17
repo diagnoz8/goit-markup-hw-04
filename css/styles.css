@@ -292,8 +292,9 @@ margin-left: auto;
         width: 264px;
         height: 112px;
         display: flex;
-                justify-content: center;
-                align-items: center;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
         background-color: var(--light);
         margin-bottom: 8px;
 }
