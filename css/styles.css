@@ -196,6 +196,9 @@ display: inline-block;
         padding-top: 100px;
         padding-bottom: 100px;
 }
+.ft-properties .soc-icons-list{
+        gap: 16px;
+}
 /* .ft-description{
         margin-right: 120px;
 } */
@@ -351,7 +354,8 @@ margin-left: auto;
 .soc-icons-li-item{
 
 }
-.social-media .soc-icons-item:hover{
+.social-media .soc-icons-item:hover,
+.social-media .soc-icons-item:focus{
         background-color: var(--success);
 }
 
